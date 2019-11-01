@@ -13,6 +13,3 @@ velocidad=str(distancia/tiempo)
 print("distancia = ",distancia)
 print("tiempo = ",tiempo)
 print("velocidad = ", velocidad)
-
-
-

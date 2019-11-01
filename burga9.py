@@ -1,14 +1,14 @@
 #calculadora nro9
-#esta calculadora raliza calculo del calor
+#esta calculadora realiza calculo de la carga electrica
 
 #declaracion de datos
-trabajo,variacion_de_energia,calor=0.0,0.0,0.0
+electrones,nro_de_electrones,carga_electrica=0.0,0.0,0.0
 
 #calculadora
-trabajo=382
-variacion_de_energia=53
-calor=(trabajo+variacion_de_energia)
+electrones=1.6
+nro_de_electrones=15
+carga_electrica=(electrones*nro_de_electrones)
 #mostrar datos
-print("trabajo= ",trabajo)
-print("variacion de energia= ",variacion_de_energia)
-print("calor= ",calor)
+print("electrones= ",electrones)
+print("numero de electrones= ",nro_de_electrones)
+print("carga electrica= ",carga_electrica)

@@ -1,16 +1,14 @@
 #calculadora nro7
-#esta clculadora realiza calculo de la presion hidrostatica
+#esta calculadora realiza el calculo del trabajo
 
-#declaracion de datos
-densidad_liquido,gravedad,altura,presion_hidrostatica=0.0,0.0,0.0,0.0
+#declaracion de variables
+fuerza,distancia,trabajo=0.0,0.0,0.0
 
 #calculadora
-densidad_liquido=13.9
-gravedad=9.8
-altura=6
-presion_hidrostatica=((densidad_liquido*gravedad)*altura)
+fuerza=56.3
+distancia=5
+trabajo=(fuerza*distancia)
 #mostrar datos
-print("densidad del liquido= ",densidad_liquido)
-print("gravedad= ",gravedad)
-print("altura= ",altura)
-print("presion hidrostatica= ",presion_hidrostatica)
+print("fuerza= ",fuerza)
+print("distancia= ",distancia)
+print("trabajo= ",trabajo)

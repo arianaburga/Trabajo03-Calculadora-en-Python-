@@ -1,14 +1,14 @@
 #calculadora nro11
-#esta calculadora realiza el calculo de la densidad
+#esta calculadora raliza calculo del calor
 
-#declaracion de variables
-masa,volumen,densidad=0.0,0.0,0.0
+#declaracion de datos
+trabajo,variacion_de_energia,calor=0.0,0.0,0.0
 
 #calculadora
-masa=87.2
-volumen=6
-densidad=(masa/volumen)
+trabajo=382
+variacion_de_energia=53
+calor=(trabajo+variacion_de_energia)
 #mostrar datos
-print("masa= ",masa)
-print("volumen= ",volumen)
-print("densidad= ",densidad)
+print("trabajo= ",trabajo)
+print("variacion de energia= ",variacion_de_energia)
+print("calor= ",calor)

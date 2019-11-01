@@ -1,13 +1,14 @@
 #calculadora nro8
-#esta calculadora realiza calculo de la intensidad de la corriente electrica
+#esta calculadora realiza calculo de energia mecanica
 
 #declaracion de datos
-carga,tiempo,intensidad_de_corriente=0.0,0.0,0.0
+enegia_cinetica,energia_potencial,energia_mecanica=0.0,0.0,0.0
+
 #calculadora
-carga=9
-tiempo=2
-intensidad_de_corriente=(carga/tiempo)
+energia_cinetica=984
+energia_potencial=283
+energia_mecanica=(energia_cinetica+energia_potencial)
 #mostrar datos
-print("carga= ",carga)
-print("tiempo= ",tiempo)
-print("intensidad de correinte electrica= ",intensidad_de_corriente)
+print("energia cinetica= ",energia_cinetica)
+print("energia potencial= ",energia_potencial)
+print("energia mecanica= ",energia_mecanica)
