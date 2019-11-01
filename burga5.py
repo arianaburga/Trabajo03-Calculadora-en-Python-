@@ -1,14 +1,14 @@
 #calculadora nro5
-#esta calculadora realiza el calculo de velocidad tangecial
+#esta calculadora realiza calculo de energia mecanica
 
-#delaracion de variables
-velocidad_angular,radio,velocidad_tangencial=0.0,0.0,0.0
+#declaracion de datos
+enegia_cinetica,energia_potencial,energia_mecanica=0.0,0.0,0.0
 
 #calculadora
-velocidad_angular=25.4
-radio=2
-velocidad_tangencial=(velocidad_angular*radio)
+energia_cinetica=984
+energia_potencial=283
+energia_mecanica=(energia_cinetica+energia_potencial)
 #mostrar datos
-print("velocida angular= ",velocidad_angular)
-print("radio= ",radio)
-print("velocidad tangencial= ",velocidad_tangencial)
+print("energia cinetica= ",energia_cinetica)
+print("energia potencial= ",energia_potencial)
+print("energia mecanica= ",energia_mecanica)

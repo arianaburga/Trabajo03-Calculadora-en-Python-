@@ -1,14 +1,14 @@
-#calculadora nro4
-#esta calculadora realiza el calculo de la densidad
+#calcuadora nro4
+#esta calculadora realiza el calculo de la potencia
 
 #declaracion de variables
-masa,volumen,densidad=0.0,0.0,0.0
+fuerza,velocidad,potencia=0.0,0.0,0.0
 
 #calculadora
-masa=87.2
-volumen=6
-densidad=(masa/volumen)
+fuerza=237
+velocidad=16
+potencia=(fuerza*velocidad)
 #mostrar datos
-print("masa= ",masa)
-print("volumen= ",volumen)
-print("densidad= ",densidad)
+print("fuerza= ",fuerza)
+print("velocidad= ",velocidad)
+print("potencia= ",potencia)

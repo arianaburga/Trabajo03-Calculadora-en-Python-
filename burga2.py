@@ -1,15 +1,14 @@
 #calculadora nro2
-#esta calculadora realiza el calculo de la fuerza
+#esta calculadora realiza el calculo de velocidad tangecial
 
-#declaracion de variables
-masa,aceleracion,fuerza=0.0,0.0,0.0
+#delaracion de variables
+velocidad_angular,radio,velocidad_tangencial=0.0,0.0,0.0
 
 #calculadora
-masa=39
-aceleracion=9.8
-fuerza=str(masa*aceleracion)
-
+velocidad_angular=25.4
+radio=2
+velocidad_tangencial=(velocidad_angular*radio)
 #mostrar datos
-print("masa= ",masa)
-print("aceleracion= ",aceleracion)
-print("fuerza= ",fuerza)
+print("velocida angular= ",velocidad_angular)
+print("radio= ",radio)
+print("velocidad tangencial= ",velocidad_tangencial)

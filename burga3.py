@@ -1,15 +1,14 @@
 #calculadora nro3
-#esta calculadora realiza el calculo de un trapecio
+#esta calculadora realiza el calculo de la densidad
 
-#delaracion de variables
-base_mayor,base_menor,altura=0.0,0.0,0.0
+#declaracion de variables
+masa,volumen,densidad=0.0,0.0,0.0
 
 #calculadora
-base_mayor=38
-base_menor=18
-altura=8
-area_del_trapecio= ((base_mayor+base_menor)*altura)/2
+masa=87.2
+volumen=6
+densidad=(masa/volumen)
 #mostrar datos
-print("base mayor= ", base_mayor)
-print("base menor= ", base_menor)
-print("area_del_trapecio= ", area_del_trapecio)
+print("masa= ",masa)
+print("volumen= ",volumen)
+print("densidad= ",densidad)

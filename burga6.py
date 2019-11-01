@@ -1,14 +1,14 @@
-#calcuadora nro6
-#esta calculadora realiza el calculo de la potencia
+#calculadora nro6
+#esta calculadora realiza calculo de la potencia entregada
 
-#declaracion de variables
-fuerza,velocidad,potencia=0.0,0.0,0.0
+#declaracion de datos
+potencia_util,potencia_perdida,potencia_entregada=0.0,0.0,0.0
 
 #calculadora
-fuerza=237
-velocidad=16
-potencia=(fuerza*velocidad)
+potencia_util=234.3
+potencia_perdida=24.6
+potencia_entregada=(potencia_util+potencia_perdida)
 #mostrar datos
-print("fuerza= ",fuerza)
-print("velocidad= ",velocidad)
-print("potencia= ",potencia)
+print("potenia util= ",potencia_util)
+print("potencia perdida= ",potencia_perdida)
+print("potencia entregada= ",potencia_entregada)
